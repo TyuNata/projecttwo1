@@ -6,8 +6,9 @@ public class Main {
         int bonus; // бонус
         if (deposit > 1000) {
             bonus = deposit / 100;
+        } else {
+            bonus = 0;
         }
-else {bonus = 0;}
-            System.out.println("Ваш счет: "+ total + " бонус: " + bonus);
+        System.out.println("Ваш счет: " + total + " бонус: " + bonus);
     }
 }
